@@ -1,5 +1,5 @@
 const WebSocket = require('ws');
-const wsServer = new WebSocket.Server({ port: 9000 });
+const wsServer = new WebSocket.Server({ port: 8080 });
 
 wsServer.on('connection', onConnect);
 
@@ -34,4 +34,4 @@ function onConnect(wsClient) {
     });
 }
 
-console.log('Сервер запущен на 9000 порту');
+console.log('Сервер запущен на 8080 порту');
