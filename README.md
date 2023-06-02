@@ -1,2 +1,2 @@
 # websocket-server-nodejs
-websocket-сервер на node.js
+websocket-сервер на node.js с докерфайлом
